@@ -1,1 +1,5 @@
-# Langchain-Multi-Agent-Research-System
+#Langchain Multi Agent System
+
+create multilangagent 
+activate multilangagent
+pip install -r requirements.txt
