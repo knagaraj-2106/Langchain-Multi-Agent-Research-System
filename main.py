@@ -1,4 +1,4 @@
-from src.tools.tools import web_search,scrape_url
+from src.pipelines.pipeline import run_research_pipeline
 
-result = web_search.invoke("What is the latest news on Ramayana Part - 1 Movie ?")
-print(result)
+topic = "The impact of AI on the jog market in 2027"
+run_research_pipeline(topic)
